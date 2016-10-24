@@ -1,0 +1,5 @@
+D:\GitHub\Tasks\Task2\Task2Library\bin\Debug\Task2Library.dll
+D:\GitHub\Tasks\Task2\Task2Library\bin\Debug\Task2Library.pdb
+D:\GitHub\Tasks\Task2\Task2Library\obj\Debug\Task2Library.csprojResolveAssemblyReference.cache
+D:\GitHub\Tasks\Task2\Task2Library\obj\Debug\Task2Library.dll
+D:\GitHub\Tasks\Task2\Task2Library\obj\Debug\Task2Library.pdb
