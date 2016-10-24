@@ -1,0 +1,8 @@
+D:\GitHub\Tasks\Task2\ConsoleTask2\bin\Debug\ConsoleTask2.exe.config
+D:\GitHub\Tasks\Task2\ConsoleTask2\bin\Debug\ConsoleTask2.exe
+D:\GitHub\Tasks\Task2\ConsoleTask2\bin\Debug\ConsoleTask2.pdb
+D:\GitHub\Tasks\Task2\ConsoleTask2\bin\Debug\Task2Library.dll
+D:\GitHub\Tasks\Task2\ConsoleTask2\bin\Debug\Task2Library.pdb
+D:\GitHub\Tasks\Task2\ConsoleTask2\obj\Debug\ConsoleTask2.csprojResolveAssemblyReference.cache
+D:\GitHub\Tasks\Task2\ConsoleTask2\obj\Debug\ConsoleTask2.exe
+D:\GitHub\Tasks\Task2\ConsoleTask2\obj\Debug\ConsoleTask2.pdb
