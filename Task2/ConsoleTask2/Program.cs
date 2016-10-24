@@ -35,11 +35,30 @@ namespace ConsoleTask2
 
             }
             NewTon k = new NewTon(A, N);
-            Console.WriteLine("А в степени n по методу Ньютона с погрешностью 0,0001 равно: " + k.SqrtN());
-            Console.WriteLine("A в степени n по методу Pow библиотеки NET равно: " + k.Pow());
-            Console.WriteLine(k.CompairNewtonandPow(k.SqrtN(), k.Pow()));
-            Console.ReadLine();
+            try
+            {
+                Console.WriteLine("А в степени n по методу Ньютона с погрешностью 0,0001 равно: " + k.SqrtN());
+                Console.WriteLine("A в степени n по методу Pow библиотеки NET равно: " + k.Pow());
+            }
+            catch (OverflowException)
+            {
+                Console.WriteLine("Переменная переполнилась. Значение посчитано неверно. Обратитесь к администратору");
+            }
 
+           
+            Console.WriteLine(k.CompairNewtonandPow(k.SqrtN(), k.Pow()));
+            Console.WriteLine("Введите неотрицательное целое число:");
+
+
+            try
+            {
+                Console.WriteLine(k.ToBinary(Console.ReadLine()));
+            }
+            catch (FormatException e)
+            {
+                Console.WriteLine(e.Message);
+            }
+            Console.ReadLine();
         }
     }
 }
