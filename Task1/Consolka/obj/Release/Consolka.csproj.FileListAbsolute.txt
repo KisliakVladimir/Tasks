@@ -1,0 +1,17 @@
+D:\ПРОЕКТЫ\ASP\Task1\Consolka\bin\Release\Consolka.exe.config
+D:\ПРОЕКТЫ\ASP\Task1\Consolka\bin\Release\Consolka.exe
+D:\ПРОЕКТЫ\ASP\Task1\Consolka\bin\Release\Consolka.pdb
+D:\ПРОЕКТЫ\ASP\Task1\Consolka\obj\Release\Consolka.csprojResolveAssemblyReference.cache
+D:\ПРОЕКТЫ\ASP\Task1\Consolka\obj\Release\Consolka.exe
+D:\ПРОЕКТЫ\ASP\Task1\Consolka\obj\Release\Consolka.pdb
+D:\ПРОЕКТЫ\ASP\Task1\Consolka\bin\Release\Task1Library.dll
+D:\ПРОЕКТЫ\ASP\Task1\Consolka\bin\Release\Task1Library.pdb
+d:\ASP\ASP\Task1\Consolka\obj\Release\Consolka.csprojResolveAssemblyReference.cache
+d:\ASP\ASP\Task1\Consolka\obj\Release\Consolka.exe
+d:\ASP\ASP\Task1\Consolka\obj\Release\Consolka.pdb
+d:\ASP\ASP\Task1\Consolka\bin\Release\Consolka.exe.config
+d:\ASP\ASP\Task1\Consolka\bin\Release\Consolka.exe
+d:\ASP\ASP\Task1\Consolka\bin\Release\Consolka.pdb
+d:\ASP\ASP\Task1\Consolka\bin\Release\Task1Library.dll
+d:\ASP\ASP\Task1\Consolka\bin\Release\Task1Library.pdb
+d:\ASP\ASP\Task1\Consolka\bin\Release\Task1Library.xml

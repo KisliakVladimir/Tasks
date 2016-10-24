@@ -1,0 +1,5 @@
+D:\ПРОЕКТЫ\ASP\Task1\Task1Library\bin\Debug\Task1Library.dll
+D:\ПРОЕКТЫ\ASP\Task1\Task1Library\bin\Debug\Task1Library.pdb
+D:\ПРОЕКТЫ\ASP\Task1\Task1Library\obj\Debug\Task1Library.csprojResolveAssemblyReference.cache
+D:\ПРОЕКТЫ\ASP\Task1\Task1Library\obj\Debug\Task1Library.dll
+D:\ПРОЕКТЫ\ASP\Task1\Task1Library\obj\Debug\Task1Library.pdb

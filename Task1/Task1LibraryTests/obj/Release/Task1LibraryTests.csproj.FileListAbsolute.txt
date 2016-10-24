@@ -1,0 +1,10 @@
+D:\ASP\ASP\Task1\Task1LibraryTests\bin\Release\Task1LibraryTests.dll
+D:\ASP\ASP\Task1\Task1LibraryTests\bin\Release\Task1LibraryTests.pdb
+D:\ASP\ASP\Task1\Task1LibraryTests\bin\Release\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+D:\ASP\ASP\Task1\Task1LibraryTests\bin\Release\Task1Library.dll
+D:\ASP\ASP\Task1\Task1LibraryTests\bin\Release\Task1Library.pdb
+D:\ASP\ASP\Task1\Task1LibraryTests\bin\Release\ru\Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll
+D:\ASP\ASP\Task1\Task1LibraryTests\obj\Release\Task1LibraryTests.csprojResolveAssemblyReference.cache
+D:\ASP\ASP\Task1\Task1LibraryTests\obj\Release\Task1LibraryTests.dll
+D:\ASP\ASP\Task1\Task1LibraryTests\obj\Release\Task1LibraryTests.pdb
+d:\ASP\ASP\Task1\Task1LibraryTests\bin\Release\Task1Library.xml

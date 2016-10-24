@@ -1,0 +1,83 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Task1Library</name>
+    </assembly>
+    <members>
+        <member name="T:Task1Library.RegexKoordinaty">
+            <summary>
+            Класс принимает текст и построчно ищет координаты формата "**.****,**.****" 
+            переделывая их формат "X: **.****, Y: **.****" 
+            если они соответствуют шаблону, если нет то считаем флаг и в Exception указываем сколько неверных форматов
+            </summary>
+        </member>
+        <member name="P:Task1Library.RegexKoordinaty.UserText">
+            <value>
+            Свойство UserText хранит пользовательский текст, который нужно будет отформатировать.
+            </value>
+        </member>
+        <member name="P:Task1Library.RegexKoordinaty.Pattern">
+            <value>
+            Свойство Pattern хранит Пользоваетльский Pattern, по которому будет форматироваться текст из UserText.
+            Если это свойство не заполнено, то используется стандартный шаблон "([0-9]{2}[.][0-9]{4})[,]([0-9]{2}[.][0-9]{4})"
+            который делает из 11.1111,22.2222 вот такой X: 11.1111, Y: 22.2222
+            </value>
+        </member>
+        <member name="P:Task1Library.RegexKoordinaty.Pathfile">
+            <summary>
+            Свойство хранит путь к файлу с которого будем считывать строки. Если свойство не заполнено, то обрабатываем
+            текст из Свойства UserText, а не из файла
+            </summary>
+        </member>
+        <member name="M:Task1Library.RegexKoordinaty.#ctor(System.String)">
+            <summary>
+            Конструктор с одним параметром, принимает текст от пользователя
+            Внутри конструктор также устанавливает Свойству Pattern значение по умолчанию
+            "([0-9]{2}[.][0-9]{4})[,]([0-9]{2}[.][0-9]{4})"
+            </summary>
+            <param name="userText">Передается через Set свойству UserText</param>
+        </member>
+        <member name="M:Task1Library.RegexKoordinaty.#ctor(System.String,System.String)">
+            <summary>
+            2-ой конструктор с двумя параметрами задающими свойства UserText и Pattern
+            </summary>
+            <param name="userText">Передается в Свойство UserText</param>
+            <param name="pattern">Передается в Свойство Pattern</param>
+        </member>
+        <member name="M:Task1Library.RegexKoordinaty.AllUserTextNewFormat">
+            <summary>
+            Метод обрабатывает пользовательский текст из свойства UserText и с помощью регулярного выражения
+            шаблона Pattern заменяет все вхождения 23.8976,12.3218 на X: 23,8976 Y: 12,3218.
+            Метод имеет две ветви в первой проверяет свойство Pathfile на null, если это так то обрабатывается
+            текст не из файла, а из свойства UserText. Если же Pathfile заполнено, то проверяем существует ли указанный файл.
+            Если не существует кидаем наверх FileNotFindExceptionю
+            </summary>
+            <returns> newText новый текст с отформатированными строками</returns>
+        </member>
+        <member name="M:Task1Library.RegexKoordinaty.CountBadLines">
+            <summary>
+            Метод построчно обрабатывает пользовательский текст и если он строка не соответсвует шаблону делаем
+            ++countNotMatch, и сохраняем номера строк с неправильным форматом. По окончанию обработки, если countNotMatch>0
+            генерируем наверх FormatException с количеством неправильных строк.
+            </summary>
+            <returns>если countNotMatch>0 генерируем наверх FormatException с количеством неправильных строк.
+            Если нет то возвращаем ""</returns>
+        </member>
+        <member name="T:Task1Library.Properties.Resources">
+            <summary>
+              Класс ресурса со строгой типизацией для поиска локализованных строк и т.д.
+            </summary>
+        </member>
+        <member name="P:Task1Library.Properties.Resources.ResourceManager">
+            <summary>
+              Возвращает кэшированный экземпляр ResourceManager, использованный этим классом.
+            </summary>
+        </member>
+        <member name="P:Task1Library.Properties.Resources.Culture">
+            <summary>
+              Перезаписывает свойство CurrentUICulture текущего потока для всех
+              обращений к ресурсу с помощью этого класса ресурса со строгой типизацией.
+            </summary>
+        </member>
+    </members>
+</doc>

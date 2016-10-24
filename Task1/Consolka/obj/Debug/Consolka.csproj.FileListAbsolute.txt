@@ -1,0 +1,8 @@
+D:\ПРОЕКТЫ\ASP\Task1\Consolka\bin\Debug\Consolka.exe.config
+D:\ПРОЕКТЫ\ASP\Task1\Consolka\bin\Debug\Consolka.exe
+D:\ПРОЕКТЫ\ASP\Task1\Consolka\bin\Debug\Consolka.pdb
+D:\ПРОЕКТЫ\ASP\Task1\Consolka\bin\Debug\Task1Library.dll
+D:\ПРОЕКТЫ\ASP\Task1\Consolka\bin\Debug\Task1Library.pdb
+D:\ПРОЕКТЫ\ASP\Task1\Consolka\obj\Debug\Consolka.csprojResolveAssemblyReference.cache
+D:\ПРОЕКТЫ\ASP\Task1\Consolka\obj\Debug\Consolka.exe
+D:\ПРОЕКТЫ\ASP\Task1\Consolka\obj\Debug\Consolka.pdb

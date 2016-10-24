@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shfbBuild product="Sandcastle Help File Builder" version="2015.1.12.0" projectFile="D:\ASP\ASP\Task1\Task1Library\bin\Release\HelpTask1.shfbproj" started="22.10.2016 20:26:56">
+<buildStep step="Initializing">
+Finding tools...
+The Sandcastle tools are located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\&#39;
+Locating components in the following folder(s):
+   D:\ASP\ASP\Task1\Task1Library\bin\Release
+Using presentation style &#39;VS2013&#39; located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013&#39;
+Loading and initializing plug-ins...
+Lightweight Website Style Version 2015.1.12.0
+Copyright &#169; 2006-2015, Eric Woodruff, All Rights Reserved
+Portions Copyright &#169; 2014, Sam Harwell, All Rights Reserved
+</buildStep>
+<buildStep step="ValidatingDocumentationSources">
+Validating and copying documentation source information
+Source: D:\ASP\ASP\Task1\Task1Library\bin\Release\Task1Library.dll
+    Found assembly &#39;D:\ASP\ASP\Task1\Task1Library\bin\Release\Task1Library.dll&#39;
+Source: D:\ASP\ASP\Task1\Task1Library\bin\Release\Task1Library.XML
+
+Copying XML comments files
+    D:\ASP\ASP\Task1\Task1Library\bin\Release\Task1Library.XML -&gt; D:\ASP\ASP\Task1\Task1Library\bin\Release\Help\Working\Task1Library.XML
+</buildStep>
+<buildStep step="GenerateSharedContent">
+Generating shared content files (en-US, Английский (США))...
+<plugIn name="Lightweight Website Style" behavior="After" priority="1000">
+</plugIn>    Last step completed in 00:00:00,0100
+</buildStep>
+<buildStep step="GenerateApiFilter">
+Generating API filter for MRefBuilder...
+    Last step completed in 00:00:00,0000
+</buildStep>
+<buildStep step="GenerateReflectionInfo">
+Generating reflection information...
+[C:\Windows\Microsoft.NET\Framework64\v4.0.30319\MSBuild.exe]
+Џ&#174;бва&#174;Ґ&#173;ЁҐ &#173;&#160;з&#160;в&#174; 22.10.2016 20:26:58.
+Џа&#174;ҐЄв &quot;D:\ASP\ASP\Task1\Task1Library\bin\Release\Help\Working\GenerateRefInfo.proj&quot; ў г&#167;&#171;Ґ 1 (жҐ&#171;ҐўлҐ &#174;ЎкҐЄвл Ї&#174; г&#172;&#174;&#171;з&#160;&#173;Ёо).
+PrepareForBuild:
+  ‘&#174;&#167;&#164;&#160;&#173;ЁҐ Є&#160;в&#160;&#171;&#174;Ј&#160; &quot;obj\Debug\&quot;.
+GenerateRefInfo:
+  MRefBuilder (v2015.1.12.0)
+  Copyright c 2006-2015, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright c 2006-2014, Eric Woodruff, All Rights Reserved.
+  Loaded 1 assemblies for reflection and 1 dependency assemblies.
+  Wrote information on 1 namespaces, 1 types, and 7 members
+  Љ&#174;ЇЁа&#174;ў&#160;&#173;ЁҐ д&#160;&#169;&#171;&#160; Ё&#167; &quot;reflection.org&quot; ў &quot;reflection.all&quot;.
+  XslTransform (v2015.1.12.0)
+  Copyright c 2006-2015, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright c 2006-2014, Eric Woodruff, All Rights Reserved.
+  Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\ProductionTransforms\MergeDuplicates.xsl&#39;.
+Џ&#174;бва&#174;Ґ&#173;ЁҐ Їа&#174;ҐЄв&#160; &quot;D:\ASP\ASP\Task1\Task1Library\bin\Release\Help\Working\GenerateRefInfo.proj&quot; &#167;&#160;ўҐаиҐ&#173;&#174; (жҐ&#171;ҐўлҐ &#174;ЎкҐЄвл Ї&#174; г&#172;&#174;&#171;з&#160;&#173;Ёо).
+
+Џ&#174;бва&#174;Ґ&#173;ЁҐ гбЇҐи&#173;&#174; &#167;&#160;ўҐаиҐ&#173;&#174;.
+
+‡&#160;ва&#160;зҐ&#173;&#173;&#174;Ґ ўаҐ&#172;п: 00:00:04.97
+    Last step completed in 00:00:06,3527
+</buildStep>
+<buildStep step="TransformReflectionInfo">
+Transforming reflection output...
+[C:\Windows\Microsoft.NET\Framework64\v4.0.30319\MSBuild.exe]
+Џ&#174;бва&#174;Ґ&#173;ЁҐ &#173;&#160;з&#160;в&#174; 22.10.2016 20:27:05.
+Џа&#174;ҐЄв &quot;D:\ASP\ASP\Task1\Task1Library\bin\Release\Help\Working\TransformManifest.proj&quot; ў г&#167;&#171;Ґ 1 (жҐ&#171;ҐўлҐ &#174;ЎкҐЄвл Ї&#174; г&#172;&#174;&#171;з&#160;&#173;Ёо).
+TransformManifest:
+  XslTransform (v2015.1.12.0)
+  Copyright c 2006-2015, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright c 2006-2014, Eric Woodruff, All Rights Reserved.
+  Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\\ProductionTransforms\ApplyVSDocModel.xsl&#39;.
+  Љ&#174;ЇЁа&#174;ў&#160;&#173;ЁҐ д&#160;&#169;&#171;&#160; Ё&#167; &quot;reflection.xml&quot; ў &quot;reflection.nofilenames&quot;.
+  XslTransform (v2015.1.12.0)
+  Copyright c 2006-2015, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright c 2006-2014, Eric Woodruff, All Rights Reserved.
+  Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\ProductionTransforms\AddFilenames.xsl&#39;.
+  XslTransform (v2015.1.12.0)
+  Copyright c 2006-2015, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright c 2006-2014, Eric Woodruff, All Rights Reserved.
+  Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\ProductionTransforms\ReflectionToManifest.xsl&#39;.
+Џ&#174;бва&#174;Ґ&#173;ЁҐ Їа&#174;ҐЄв&#160; &quot;D:\ASP\ASP\Task1\Task1Library\bin\Release\Help\Working\TransformManifest.proj&quot; &#167;&#160;ўҐаиҐ&#173;&#174; (жҐ&#171;ҐўлҐ &#174;ЎкҐЄвл Ї&#174; г&#172;&#174;&#171;з&#160;&#173;Ёо).
+
+Џ&#174;бва&#174;Ґ&#173;ЁҐ гбЇҐи&#173;&#174; &#167;&#160;ўҐаиҐ&#173;&#174;.
+
+‡&#160;ва&#160;зҐ&#173;&#173;&#174;Ґ ўаҐ&#172;п: 00:00:03.44
+    Last step completed in 00:00:05,2947
+</buildStep>
+<buildStep step="GenerateNamespaceSummaries">
+Generating namespace summary information...
+    Last step completed in 00:00:00,1200
+</buildStep>
+<buildStep step="CopyAdditionalContent">
+Copying additional content files...
+No additional content to copy
+    Last step completed in 00:00:00,0050
+</buildStep>
+<buildStep step="MergeTablesOfContents">
+Merging conceptual and additional tables of contents...
+    Last step completed in 00:00:00,0050
+</buildStep>
+<buildStep step="GenerateIntermediateTableOfContents">
+Generating intermediate table of contents file...
+[C:\Windows\Microsoft.NET\Framework64\v4.0.30319\MSBuild.exe]
+Џ&#174;бва&#174;Ґ&#173;ЁҐ &#173;&#160;з&#160;в&#174; 22.10.2016 20:27:10.
+Џа&#174;ҐЄв &quot;D:\ASP\ASP\Task1\Task1Library\bin\Release\Help\Working\GenerateIntermediateTOC.proj&quot; ў г&#167;&#171;Ґ 1 (жҐ&#171;ҐўлҐ &#174;ЎкҐЄвл Ї&#174; г&#172;&#174;&#171;з&#160;&#173;Ёо).
+GenerateIntermediateTOC:
+  XslTransform (v2015.1.12.0)
+  Copyright c 2006-2015, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright c 2006-2014, Eric Woodruff, All Rights Reserved.
+  Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\\ProductionTransforms\CreateVSToc.xsl&#39;.
+Џ&#174;бва&#174;Ґ&#173;ЁҐ Їа&#174;ҐЄв&#160; &quot;D:\ASP\ASP\Task1\Task1Library\bin\Release\Help\Working\GenerateIntermediateTOC.proj&quot; &#167;&#160;ўҐаиҐ&#173;&#174; (жҐ&#171;ҐўлҐ &#174;ЎкҐЄвл Ї&#174; г&#172;&#174;&#171;з&#160;&#173;Ёо).
+
+Џ&#174;бва&#174;Ґ&#173;ЁҐ гбЇҐи&#173;&#174; &#167;&#160;ўҐаиҐ&#173;&#174;.
+
+‡&#160;ва&#160;зҐ&#173;&#173;&#174;Ґ ўаҐ&#172;п: 00:00:02.52
+Generating conceptual content intermediate TOC file...
+    Last step completed in 00:00:03,9251
+</buildStep>
+<buildStep step="CreateBuildAssemblerConfigs">
+Creating Sandcastle configuration files...
+    sandcastle.config
+    Last step completed in 00:00:00,1350
+</buildStep>
+<buildStep step="MergeCustomConfigs">
+Merging custom build component configurations
+D:\ASP\ASP\Task1\Task1Library\bin\Release\Help\Working\sandcastle.config
+    Last step completed in 00:00:00,0550
+</buildStep>
+<buildStep step="BuildReferenceTopics">
+Building reference help topics...
+[C:\Windows\Microsoft.NET\Framework64\v4.0.30319\MSBuild.exe]
+Џ&#174;бва&#174;Ґ&#173;ЁҐ &#173;&#160;з&#160;в&#174; 22.10.2016 20:27:14.
+Џа&#174;ҐЄв &quot;D:\ASP\ASP\Task1\Task1Library\bin\Release\Help\Working\BuildReferenceTopics.proj&quot; ў г&#167;&#171;Ґ 1 (жҐ&#171;ҐўлҐ &#174;ЎкҐЄвл Ї&#174; г&#172;&#174;&#171;з&#160;&#173;Ёо).
+BuildReferenceTopics:
+  BuildAssembler (v2015.1.12.0)
+  Copyright c 2006-2015, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright c 2006-2014, Eric Woodruff, All Rights Reserved.
+  Loading configuration...
+  Processing topics...
+BuildAssembler : warning : ShowMissingComponent: [N:Task1Library] Missing &lt;summary&gt; documentation [D:\ASP\ASP\Task1\Task1Library\bin\Release\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Task1Library.RegexKoordinaty.CountBadLines] Missing &lt;returns&gt; documentation [D:\ASP\ASP\Task1\Task1Library\bin\Release\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:Task1Library.RegexKoordinaty.Pattern] Missing &lt;summary&gt; documentation [D:\ASP\ASP\Task1\Task1Library\bin\Release\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:Task1Library.RegexKoordinaty.UserText] Missing &lt;summary&gt; documentation [D:\ASP\ASP\Task1\Task1Library\bin\Release\Help\Working\BuildReferenceTopics.proj]
+  Processed 12 topic(s)
+  4 warning(s)
+  CopyFromIndexComponent: &quot;reflection&quot; in-memory cache entries used: 2 of 15.
+  CopyFromIndexComponent: &quot;comments&quot; in-memory cache entries used: 1 of 30.
+Џ&#174;бва&#174;Ґ&#173;ЁҐ Їа&#174;ҐЄв&#160; &quot;D:\ASP\ASP\Task1\Task1Library\bin\Release\Help\Working\BuildReferenceTopics.proj&quot; &#167;&#160;ўҐаиҐ&#173;&#174; (жҐ&#171;ҐўлҐ &#174;ЎкҐЄвл Ї&#174; г&#172;&#174;&#171;з&#160;&#173;Ёо).
+
+Џ&#174;бва&#174;Ґ&#173;ЁҐ гбЇҐи&#173;&#174; &#167;&#160;ўҐаиҐ&#173;&#174;.
+
+‡&#160;ва&#160;зҐ&#173;&#173;&#174;Ґ ўаҐ&#172;п: 00:00:11.87
+    Last step completed in 00:00:13,1983
+</buildStep>
+<buildStep step="CombiningIntermediateTocFiles">
+Combining conceptual and API intermediate TOC files...
+    Last step completed in 00:00:00,0050
+</buildStep>
+<buildStep step="CopyStandardHelpContent">
+Copying standard help content...
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\AlertCaution.png -&gt; D:\ASP\ASP\Task1\Task1Library\bin\Release\Help\Working\Output\MSHelpViewer\icons\AlertCaution.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\AlertNote.png -&gt; D:\ASP\ASP\Task1\Task1Library\bin\Release\Help\Working\Output\MSHelpViewer\icons\AlertNote.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\AlertSecurity.png -&gt; D:\ASP\ASP\Task1\Task1Library\bin\Release\Help\Working\Output\MSHelpViewer\icons\AlertSecurity.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\CFW.gif -&gt; D:\ASP\ASP\Task1\Task1Library\bin\Release\Help\Working\Output\MSHelpViewer\icons\CFW.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\CodeExample.png -&gt; D:\ASP\ASP\Task1\Task1Library\bin\Release\Help\Working\Output\MSHelpViewer\icons\CodeExample.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\favicon.ico -&gt; D:\ASP\ASP\Task1\Task1Library\bin\Release\Help\Working\Output\MSHelpViewer\icons\favicon.ico
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privclass.gif -&gt; D:\ASP\ASP\Task1\Task1Library\bin\Release\Help\Working\Output\MSHelpViewer\icons\privclass.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privdelegate.gif -&gt; D:\ASP\ASP\Task1\Task1Library\bin\Release\Help\Working\Output\MSHelpViewer\icons\privdelegate.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privenumeration.gif -&gt; D:\ASP\ASP\Task1\Task1Library\bin\Release\Help\Working\Output\MSHelpViewer\icons\privenumeration.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privevent.gif -&gt; D:\ASP\ASP\Task1\Task1Library\bin\Release\Help\Working\Output\MSHelpViewer\icons\privevent.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privextension.gif -&gt; D:\ASP\ASP\Task1\Task1Library\bin\Release\Help\Working\Output\MSHelpViewer\icons\privextension.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privfield.gif -&gt; D:\ASP\ASP\Task1\Task1Library\bin\Release\Help\Working\Output\MSHelpViewer\icons\privfield.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privinterface.gif -&gt; D:\ASP\ASP\Task1\Task1Library\bin\Release\Help\Working\Output\MSHelpViewer\icons\privinterface.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privmethod.gif -&gt; D:\ASP\ASP\Task1\Task1Library\bin\Release\Help\Working\Output\MSHelpViewer\icons\privmethod.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privproperty.gif -&gt; D:\ASP\ASP\Task1\Task1Library\bin\Release\Help\Working\Output\MSHelpViewer\icons\privproperty.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privstructure.gif -&gt; D:\ASP\ASP\Task1\Task1Library\bin\Release\Help\Working\Output\MSHelpViewer\icons\privstructure.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protclass.gif -&gt; D:\ASP\ASP\Task1\Task1Library\bin\Release\Help\Working\Output\MSHelpViewer\icons\protclass.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protdelegate.gif -&gt; D:\ASP\ASP\Task1\Task1Library\bin\Release\Help\Working\Output\MSHelpViewer\icons\protdelegate.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protenumeration.gif -&gt; D:\ASP\ASP\Task1\Task1Library\bin\Release\Help\Working\Output\MSHelpViewer\icons\protenumeration.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protevent.gif -&gt; D:\ASP\ASP\Task1\Task1Library\bin\Release\Help\Working\Output\MSHelpViewer\icons\protevent.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protextension.gif -&gt; D:\ASP\ASP\Task1\Task1Library\bin\Release\Help\Working\Output\MSHelpViewer\icons\protextension.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protfield.gif -&gt; D:\ASP\ASP\Task1\Task1Library\bin\Release\Help\Working\Output\MSHelpViewer\icons\protfield.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protinterface.gif -&gt; D:\ASP\ASP\Task1\Task1Library\bin\Release\Help\Working\Output\MSHelpViewer\icons\protinterface.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protmethod.gif -&gt; D:\ASP\ASP\Task1\Task1Library\bin\Release\Help\Working\Output\MSHelpViewer\icons\protmethod.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protoperator.gif -&gt; D:\ASP\ASP\Task1\Task1Library\bin\Release\Help\Working\Output\MSHelpViewer\icons\protoperator.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protproperty.gif -&gt; D:\ASP\ASP\Task1\Task1Library\bin\Release\Help\Working\Output\MSHelpViewer\icons\protproperty.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protstructure.gif -&gt; D:\ASP\ASP\Task1\Task1Library\bin\Release\Help\Working\Output\MSHelpViewer\icons\protstructure.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubclass.gif -&gt; D:\ASP\ASP\Task1\Task1Library\bin\Release\Help\Working\Output\MSHelpViewer\icons\pubclass.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubdelegate.gif -&gt; D:\ASP\ASP\Task1\Task1Library\bin\Release\Help\Working\Output\MSHelpViewer\icons\pubdelegate.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubenumeration.gif -&gt; D:\ASP\ASP\Task1\Task1Library\bin\Release\Help\Working\Output\MSHelpViewer\icons\pubenumeration.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubevent.gif -&gt; D:\ASP\ASP\Task1\Task1Library\bin\Release\Help\Working\Output\MSHelpViewer\icons\pubevent.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubextension.gif -&gt; D:\ASP\ASP\Task1\Task1Library\bin\Release\Help\Working\Output\MSHelpViewer\icons\pubextension.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubfield.gif -&gt; D:\ASP\ASP\Task1\Task1Library\bin\Release\Help\Working\Output\MSHelpViewer\icons\pubfield.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubinterface.gif -&gt; D:\ASP\ASP\Task1\Task1Library\bin\Release\Help\Working\Output\MSHelpViewer\icons\pubinterface.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubmethod.gif -&gt; D:\ASP\ASP\Task1\Task1Library\bin\Release\Help\Working\Output\MSHelpViewer\icons\pubmethod.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\puboperator.gif -&gt; D:\ASP\ASP\Task1\Task1Library\bin\Release\Help\Working\Output\MSHelpViewer\icons\puboperator.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubproperty.gif -&gt; D:\ASP\ASP\Task1\Task1Library\bin\Release\Help\Working\Output\MSHelpViewer\icons\pubproperty.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubstructure.gif -&gt; D:\ASP\ASP\Task1\Task1Library\bin\Release\Help\Working\Output\MSHelpViewer\icons\pubstructure.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\SectionCollapsed.png -&gt; D:\ASP\ASP\Task1\Task1Library\bin\Release\Help\Working\Output\MSHelpViewer\icons\SectionCollapsed.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\SectionExpanded.png -&gt; D:\ASP\ASP\Task1\Task1Library\bin\Release\Help\Working\Output\MSHelpViewer\icons\SectionExpanded.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\slMobile.gif -&gt; D:\ASP\ASP\Task1\Task1Library\bin\Release\Help\Working\Output\MSHelpViewer\icons\slMobile.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\static.gif -&gt; D:\ASP\ASP\Task1\Task1Library\bin\Release\Help\Working\Output\MSHelpViewer\icons\static.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\xna.gif -&gt; D:\ASP\ASP\Task1\Task1Library\bin\Release\Help\Working\Output\MSHelpViewer\icons\xna.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\scripts\branding.js -&gt; D:\ASP\ASP\Task1\Task1Library\bin\Release\Help\Working\Output\MSHelpViewer\scripts\branding.js
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-cs-CZ.css -&gt; D:\ASP\ASP\Task1\Task1Library\bin\Release\Help\Working\Output\MSHelpViewer\styles\branding-cs-CZ.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-de-DE.css -&gt; D:\ASP\ASP\Task1\Task1Library\bin\Release\Help\Working\Output\MSHelpViewer\styles\branding-de-DE.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-en-US.css -&gt; D:\ASP\ASP\Task1\Task1Library\bin\Release\Help\Working\Output\MSHelpViewer\styles\branding-en-US.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-es-ES.css -&gt; D:\ASP\ASP\Task1\Task1Library\bin\Release\Help\Working\Output\MSHelpViewer\styles\branding-es-ES.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-fr-FR.css -&gt; D:\ASP\ASP\Task1\Task1Library\bin\Release\Help\Working\Output\MSHelpViewer\styles\branding-fr-FR.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-Help1.css -&gt; D:\ASP\ASP\Task1\Task1Library\bin\Release\Help\Working\Output\MSHelpViewer\styles\branding-Help1.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-Help2.css -&gt; D:\ASP\ASP\Task1\Task1Library\bin\Release\Help\Working\Output\MSHelpViewer\styles\branding-Help2.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-HelpViewer.css -&gt; D:\ASP\ASP\Task1\Task1Library\bin\Release\Help\Working\Output\MSHelpViewer\styles\branding-HelpViewer.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-it-IT.css -&gt; D:\ASP\ASP\Task1\Task1Library\bin\Release\Help\Working\Output\MSHelpViewer\styles\branding-it-IT.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-ja-JP.css -&gt; D:\ASP\ASP\Task1\Task1Library\bin\Release\Help\Working\Output\MSHelpViewer\styles\branding-ja-JP.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-ko-KR.css -&gt; D:\ASP\ASP\Task1\Task1Library\bin\Release\Help\Working\Output\MSHelpViewer\styles\branding-ko-KR.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-pl-PL.css -&gt; D:\ASP\ASP\Task1\Task1Library\bin\Release\Help\Working\Output\MSHelpViewer\styles\branding-pl-PL.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-pt-BR.css -&gt; D:\ASP\ASP\Task1\Task1Library\bin\Release\Help\Working\Output\MSHelpViewer\styles\branding-pt-BR.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-ru-RU.css -&gt; D:\ASP\ASP\Task1\Task1Library\bin\Release\Help\Working\Output\MSHelpViewer\styles\branding-ru-RU.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-tr-TR.css -&gt; D:\ASP\ASP\Task1\Task1Library\bin\Release\Help\Working\Output\MSHelpViewer\styles\branding-tr-TR.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-Website.css -&gt; D:\ASP\ASP\Task1\Task1Library\bin\Release\Help\Working\Output\MSHelpViewer\styles\branding-Website.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-zh-CN.css -&gt; D:\ASP\ASP\Task1\Task1Library\bin\Release\Help\Working\Output\MSHelpViewer\styles\branding-zh-CN.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-zh-TW.css -&gt; D:\ASP\ASP\Task1\Task1Library\bin\Release\Help\Working\Output\MSHelpViewer\styles\branding-zh-TW.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding.css -&gt; D:\ASP\ASP\Task1\Task1Library\bin\Release\Help\Working\Output\MSHelpViewer\styles\branding.css
+    Last step completed in 00:00:00,2650
+</buildStep>
+<buildStep step="GenerateHelpFormatTableOfContents">
+Executing informational Generate Table of Contents build step for plug-ins (not used for MS Help Viewer)
+    Last step completed in 00:00:00,0017
+</buildStep>
+<buildStep step="GenerateHelpProject">
+Executing informational Generate Help Project build step for plug-ins (not used for MS Help Viewer)
+    Last step completed in 00:00:00,0000
+</buildStep>
+<buildStep step="CompilingHelpFile">
+Generating MS Help Viewer file...
+[C:\Windows\Microsoft.NET\Framework64\v4.0.30319\MSBuild.exe]
+  Compressing help content files...
+  Compression finished.  80 items added
+  Saving D:\ASP\ASP\Task1\Task1Library\bin\Release\Help\Documentation.mshc...
+  Finished saving D:\ASP\ASP\Task1\Task1Library\bin\Release\Help\Documentation.mshc
+  Compressed 4 folders, 76 files.  Reduced size by 110я468 bytes (62%).
+    Last step completed in 00:00:03,4252
+</buildStep>
+<buildStep step="CleanIntermediates">
+Removing intermediate files...
+    Last step completed in 00:00:00,0950
+</buildStep>
+<buildStep step="Completed">
+
+Build completed successfully at 22.10.2016 20:27:30.  Total time: 00:00:34,1675
+
+</buildStep>
+</shfbBuild>

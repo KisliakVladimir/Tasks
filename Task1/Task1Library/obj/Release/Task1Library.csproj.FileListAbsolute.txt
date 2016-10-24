@@ -1,0 +1,12 @@
+D:\ПРОЕКТЫ\ASP\Task1\Task1Library\bin\Release\Task1Library.dll
+D:\ПРОЕКТЫ\ASP\Task1\Task1Library\bin\Release\Task1Library.pdb
+D:\ПРОЕКТЫ\ASP\Task1\Task1Library\obj\Release\Task1Library.dll
+D:\ПРОЕКТЫ\ASP\Task1\Task1Library\obj\Release\Task1Library.pdb
+d:\ASP\ASP\Task1\Task1Library\obj\Release\Task1Library.csprojResolveAssemblyReference.cache
+d:\ASP\ASP\Task1\Task1Library\obj\Release\Task1Library.dll
+d:\ASP\ASP\Task1\Task1Library\obj\Release\Task1Library.pdb
+d:\ASP\ASP\Task1\Task1Library\bin\Release\Task1Library.dll
+d:\ASP\ASP\Task1\Task1Library\bin\Release\Task1Library.pdb
+d:\ASP\ASP\Task1\Task1Library\bin\Release\Task1Library.XML
+d:\ASP\ASP\Task1\Task1Library\obj\Release\Task1Library.Properties.Resources.resources
+d:\ASP\ASP\Task1\Task1Library\obj\Release\Task1Library.csproj.GenerateResource.Cache

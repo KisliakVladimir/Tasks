@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpKI>
+  <HelpKINode Title="AllUserTextNewFormat method" Url="html/170ce84a-9d47-1fe7-0c39-348bdf54d264.htm" />
+  <HelpKINode Title="CountBadLines method" Url="html/df12ca54-7ef2-76c0-49dd-62ea5343ff8a.htm" />
+  <HelpKINode Title="Pathfile property" Url="html/380c9a92-0a2d-04c8-66e1-430367a05739.htm" />
+  <HelpKINode Title="Pattern property" Url="html/a77930fa-5b15-2026-6d19-544027f9685e.htm" />
+  <HelpKINode Title="RegexKoordinaty class">
+    <HelpKINode Title="RegexKoordinaty Class" Url="html/4fc421bb-829a-e79f-cee0-9d2c41619b4c.htm" />
+    <HelpKINode Title="about RegexKoordinaty class" Url="html/4fc421bb-829a-e79f-cee0-9d2c41619b4c.htm" />
+    <HelpKINode Title="constructor" Url="html/28cfbf1a-894d-efe2-fbc0-7d1522d0b6ec.htm" />
+    <HelpKINode Title="methods" Url="html/d0b65aa4-f6d3-eb25-b937-933bb9d87891.htm" />
+    <HelpKINode Title="properties" Url="html/7d428729-d6bd-78fc-59d1-df7db2faedc5.htm" />
+  </HelpKINode>
+  <HelpKINode Title="RegexKoordinaty.AllUserTextNewFormat method" Url="html/170ce84a-9d47-1fe7-0c39-348bdf54d264.htm" />
+  <HelpKINode Title="RegexKoordinaty.CountBadLines method" Url="html/df12ca54-7ef2-76c0-49dd-62ea5343ff8a.htm" />
+  <HelpKINode Title="RegexKoordinaty.Pathfile property" Url="html/380c9a92-0a2d-04c8-66e1-430367a05739.htm" />
+  <HelpKINode Title="RegexKoordinaty.Pattern property" Url="html/a77930fa-5b15-2026-6d19-544027f9685e.htm" />
+  <HelpKINode Title="RegexKoordinaty.RegexKoordinaty constructor" Url="html/28cfbf1a-894d-efe2-fbc0-7d1522d0b6ec.htm" />
+  <HelpKINode Title="RegexKoordinaty.UserText property" Url="html/edcfd6cd-ec1f-c49a-c56d-4751cf9b09d1.htm" />
+  <HelpKINode Title="Task1Library namespace" Url="html/b26a7ac3-a02a-a371-6413-f7c2aec47e91.htm" />
+  <HelpKINode Title="Task1Library.RegexKoordinaty class" Url="html/4fc421bb-829a-e79f-cee0-9d2c41619b4c.htm" />
+  <HelpKINode Title="UserText property" Url="html/edcfd6cd-ec1f-c49a-c56d-4751cf9b09d1.htm" />
+</HelpKI>

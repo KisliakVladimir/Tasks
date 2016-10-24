@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpTOC>
+
+  <HelpTOCNode Id="0efa0588-57bd-42cf-876c-11a06b7cb0d5" Title="Task1Library" Url="html/b26a7ac3-a02a-a371-6413-f7c2aec47e91.htm">
+    <HelpTOCNode Id="ef27f174-0aca-4dbd-96d2-a944a3a6df4e" Title="RegexKoordinaty Class" Url="html/4fc421bb-829a-e79f-cee0-9d2c41619b4c.htm">
+      <HelpTOCNode Id="37d3ce0b-e954-4e44-93b4-32f1aaa7e03c" Title="RegexKoordinaty Constructor " Url="html/28cfbf1a-894d-efe2-fbc0-7d1522d0b6ec.htm">
+        <HelpTOCNode Title="RegexKoordinaty Constructor (String)" Url="html/be72b5d0-fd4f-0b0b-4e18-d69ea64cfd74.htm" />
+        <HelpTOCNode Title="RegexKoordinaty Constructor (String, String)" Url="html/603c4724-9e7e-c68d-dba5-1bd30ac8b03a.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="80b2bbc5-cb29-4541-9d4a-cedb68f3c10b" Title="RegexKoordinaty Methods" Url="html/d0b65aa4-f6d3-eb25-b937-933bb9d87891.htm">
+        <HelpTOCNode Title="AllUserTextNewFormat Method " Url="html/170ce84a-9d47-1fe7-0c39-348bdf54d264.htm" />
+        <HelpTOCNode Title="CountBadLines Method " Url="html/df12ca54-7ef2-76c0-49dd-62ea5343ff8a.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="314f861f-c7cc-4467-a9e3-f8d6398dd608" Title="RegexKoordinaty Properties" Url="html/7d428729-d6bd-78fc-59d1-df7db2faedc5.htm">
+        <HelpTOCNode Title="Pathfile Property " Url="html/380c9a92-0a2d-04c8-66e1-430367a05739.htm" />
+        <HelpTOCNode Title="Pattern Property " Url="html/a77930fa-5b15-2026-6d19-544027f9685e.htm" />
+        <HelpTOCNode Title="UserText Property " Url="html/edcfd6cd-ec1f-c49a-c56d-4751cf9b09d1.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+</HelpTOC>
