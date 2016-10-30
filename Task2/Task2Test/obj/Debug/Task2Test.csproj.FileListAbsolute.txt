@@ -1,0 +1,9 @@
+D:\GitHub\Tasks\Task2\Task2Test\bin\Debug\Task2Test.dll
+D:\GitHub\Tasks\Task2\Task2Test\bin\Debug\Task2Test.pdb
+D:\GitHub\Tasks\Task2\Task2Test\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+D:\GitHub\Tasks\Task2\Task2Test\bin\Debug\Task2Library.dll
+D:\GitHub\Tasks\Task2\Task2Test\bin\Debug\Task2Library.pdb
+D:\GitHub\Tasks\Task2\Task2Test\bin\Debug\ru\Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll
+D:\GitHub\Tasks\Task2\Task2Test\obj\Debug\Task2Test.csprojResolveAssemblyReference.cache
+D:\GitHub\Tasks\Task2\Task2Test\obj\Debug\Task2Test.dll
+D:\GitHub\Tasks\Task2\Task2Test\obj\Debug\Task2Test.pdb
