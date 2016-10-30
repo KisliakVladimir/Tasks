@@ -45,10 +45,8 @@ namespace ConsoleTask2
                 Console.WriteLine("Переменная переполнилась. Значение посчитано неверно. Обратитесь к администратору");
             }
 
-           
             Console.WriteLine(k.CompairNewtonandPow(k.SqrtN(), k.Pow()));
             Console.WriteLine("Введите неотрицательное целое число:");
-
 
             try
             {

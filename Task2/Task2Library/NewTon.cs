@@ -7,7 +7,10 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace Task2Library
-{
+{/// <summary>
+/// Класс позволяющий рассчитать корень n-ой степени из числа методом Ньютона с заданной точностью. В классе есть свойства
+/// double A - само число, double N - степень, Eps - точность.
+/// </summary>
     public class NewTon
     {
         private double a;
@@ -32,13 +35,21 @@ namespace Task2Library
             set { eps = value; }
         }
         public uint Number { get; set; }
-
+        /// <summary>
+        /// Конструктор инициилизирующий поля a - число, n - степень, eps - задается по умолчанию в конструкторе 0,0001
+        /// </summary>
+        /// <param name="a">передается в параметре конструктора для указания числа</param>
+        /// <param name="n">передается в параметре конструктора для указания степени</param>
         public NewTon (double a, double n)
         {
             this.A = a;
             this.N = n;
             this.Eps = 0.0001;
         }
+        /// <summary>
+        /// Метод Ньютона, который возвращает значение double
+        /// </summary>
+        /// <returns>возвращает double x1 </returns>
         public double SqrtN()
         {
             double x1=0;
@@ -54,7 +65,6 @@ namespace Task2Library
                         x0 = x1;
                         x1 = (1 / N) * ((N - 1) * x0 + A / Math.Pow(x0, (int)N - 1));
                     }
-
                     return x1;
                 }
             }
@@ -62,14 +72,22 @@ namespace Task2Library
             {
                
             }
-
             return x1;
         }
-
+/// <summary>
+/// Альтернативный метод Pow
+/// </summary>
+/// <returns></returns>
         public double Pow()
         {
             return Math.Pow(A, N);
         }
+        /// <summary>
+        /// Сравниваем значение полученное методом Ньютона и методом Pow и возвращаем string "newton > pow" или return "newton < pow"
+        /// </summary>
+        /// <param name="newton">значение полученное методом Ньютона</param>
+        /// <param name="pow">значение полученное методом Pow</param>
+        /// <returns></returns>
         public string CompairNewtonandPow(double newton, double pow)
         {
             
@@ -83,6 +101,12 @@ namespace Task2Library
             }
             return "равны";
         }
+        /// <summary>
+        /// Метод, который преобразует неотрицательное число в двоичное представление с проверкой возможности конвертирования в uint
+        /// Если преобразование невозможно то возвращаем ошибку FormatException
+        /// </summary>
+        /// <param name="number">десятичное неотрицательное число, которое нужно представить в двоичный вид.</param>
+        /// <returns></returns>
         public string ToBinary(string number)
         {
             uint gooduint;
