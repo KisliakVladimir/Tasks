@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task2Library", "Task2Librar
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleTask2", "ConsoleTask2\ConsoleTask2.csproj", "{689E47E4-C607-45AB-88FA-D631A5E78881}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task2Test", "Task2Test\Task2Test.csproj", "{BEACE46B-0F0A-44A8-96A0-97B1FA7C9918}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task2LibraryTests", "Task2Test\Task2LibraryTests.csproj", "{BEACE46B-0F0A-44A8-96A0-97B1FA7C9918}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

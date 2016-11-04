@@ -15,3 +15,12 @@ d:\ASP\ASP\Task1\Consolka\bin\Release\Consolka.pdb
 d:\ASP\ASP\Task1\Consolka\bin\Release\Task1Library.dll
 d:\ASP\ASP\Task1\Consolka\bin\Release\Task1Library.pdb
 d:\ASP\ASP\Task1\Consolka\bin\Release\Task1Library.xml
+d:\GitHub\Tasks\Task1\Consolka\bin\Release\Consolka.exe.config
+d:\GitHub\Tasks\Task1\Consolka\obj\Release\Consolka.exe
+d:\GitHub\Tasks\Task1\Consolka\obj\Release\Consolka.pdb
+d:\GitHub\Tasks\Task1\Consolka\bin\Release\Consolka.exe
+d:\GitHub\Tasks\Task1\Consolka\bin\Release\Consolka.pdb
+d:\GitHub\Tasks\Task1\Consolka\bin\Release\Task1Library.dll
+d:\GitHub\Tasks\Task1\Consolka\bin\Release\Task1Library.pdb
+d:\GitHub\Tasks\Task1\Consolka\bin\Release\Task1Library.xml
+d:\GitHub\Tasks\Task1\Consolka\obj\Release\Consolka.csprojResolveAssemblyReference.cache

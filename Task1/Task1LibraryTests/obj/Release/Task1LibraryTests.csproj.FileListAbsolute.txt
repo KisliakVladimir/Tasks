@@ -8,3 +8,13 @@ D:\ASP\ASP\Task1\Task1LibraryTests\obj\Release\Task1LibraryTests.csprojResolveAs
 D:\ASP\ASP\Task1\Task1LibraryTests\obj\Release\Task1LibraryTests.dll
 D:\ASP\ASP\Task1\Task1LibraryTests\obj\Release\Task1LibraryTests.pdb
 d:\ASP\ASP\Task1\Task1LibraryTests\bin\Release\Task1Library.xml
+d:\GitHub\Tasks\Task1\Task1LibraryTests\bin\Release\Task1LibraryTests.dll
+d:\GitHub\Tasks\Task1\Task1LibraryTests\bin\Release\Task1LibraryTests.pdb
+d:\GitHub\Tasks\Task1\Task1LibraryTests\bin\Release\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+d:\GitHub\Tasks\Task1\Task1LibraryTests\bin\Release\Task1Library.dll
+d:\GitHub\Tasks\Task1\Task1LibraryTests\bin\Release\Task1Library.pdb
+d:\GitHub\Tasks\Task1\Task1LibraryTests\bin\Release\Task1Library.xml
+d:\GitHub\Tasks\Task1\Task1LibraryTests\bin\Release\ru\Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll
+d:\GitHub\Tasks\Task1\Task1LibraryTests\obj\Release\Task1LibraryTests.csprojResolveAssemblyReference.cache
+d:\GitHub\Tasks\Task1\Task1LibraryTests\obj\Release\Task1LibraryTests.dll
+d:\GitHub\Tasks\Task1\Task1LibraryTests\obj\Release\Task1LibraryTests.pdb

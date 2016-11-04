@@ -15,7 +15,7 @@ namespace Task1Library.Tests
     {
 
         [TestMethod()]
-        public void RegexKoordinaty_konstruktor_Property()
+        public void RegexKoordinatyPropertyUserText_Data_Data()
         {
             var k = new RegexKoordinaty("11.1111,55.6666");
             var usertext = k.UserText;
@@ -23,16 +23,14 @@ namespace Task1Library.Tests
             Assert.AreEqual(NewText, usertext);
         }
         [TestMethod()]
-        public void RegexKoordinaty_konstruktor2_Property()
+        public void RegexKoordinatyPropertyPattern_Data_Data()
         {
             var k = new RegexKoordinaty("11.1111,55.6666", "([0-9]{2}[.][0-9]{4})[,]([0-9]{2}[.][0-9]{4})");
             var pattern = k.Pattern;
-
-            
             Assert.AreEqual(pattern, "([0-9]{2}[.][0-9]{4})[,]([0-9]{2}[.][0-9]{4})");
         }
         [TestMethod()]
-        public void AllUserTextNewFormatTest_Should_Format_Data()
+        public void AllUserTextNewFormat_Data_ShouldFormatData()
         {
             var k = new RegexKoordinaty("11.1111,55.6666");
             var usertext = k.AllUserTextNewFormat();
@@ -41,7 +39,7 @@ namespace Task1Library.Tests
         }
 
         [TestMethod()]
-        public void AllUserTextNewFormat_Get_From_File_returnString_Format_Data()
+        public void AllUserTextNewFormat_Datafromfile_ShouldFormatData()
         {
             var k = new RegexKoordinaty("11.1111,55.6666");
             k.Pathfile = @"d:\ASP\ASP\Task1\Consolka\bin\Release\123.txt";
@@ -66,7 +64,7 @@ namespace Task1Library.Tests
 
         }
         [TestMethod()]
-        public void CountBadLinesTest_Not_return_if_FormatIN_Ok()
+        public void CountBadLinesTest_GoodFormat_NotReturn()
         {
             var k = new RegexKoordinaty("11.1111,55.6666");
             var usertext = k.CountBadLines();
@@ -74,7 +72,7 @@ namespace Task1Library.Tests
             Assert.AreEqual(NewText, usertext);
         }
         [TestMethod()]
-        public void CountBadLinesBadTest_File_Not_Find_Exception()
+        public void CountBadLines_FileNotExist_Exception()
         {
             var k = new RegexKoordinaty("11.1111, 55.6666");
             k.Pathfile = @"d:\ASP\ASP\Task1\Consolka\bin\Release\13.txt";
@@ -90,7 +88,7 @@ namespace Task1Library.Tests
         }
 
         [TestMethod()]
-        public void CountBadLinesBadTest_Format_Exception()
+        public void CountBadLines_BadFormat_Exception()
         {
             var k = new RegexKoordinaty("11.1111, 55.6666");
             
