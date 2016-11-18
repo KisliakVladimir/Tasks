@@ -11,7 +11,7 @@ namespace ConsoleTask4
     {
         static void Main(string[] args)
         {
-            Triangle T1 = new Triangle(-double.MaxValue, -double.MaxValue, -double.MaxValue-3, double.MaxValue, double.MaxValue, double.MaxValue);
+            Triangle T1 = new Triangle(0, 0, 1, 1, 0, 1);
             
             Console.WriteLine(T1.IsAlive());
             Console.WriteLine(T1.Square());

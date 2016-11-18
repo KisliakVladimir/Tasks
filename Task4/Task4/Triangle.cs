@@ -20,6 +20,7 @@ namespace Task4
             set
             {
                 x1 = value;
+                //при изменении координаты пересчитываем стороны которые зависят от координаты
                 SideALength();
                 SideBLength();
             }
@@ -106,7 +107,7 @@ namespace Task4
            SideBLength();
            SideCLength();
         }
-        public void SideALength()
+        private void SideALength()
         {
             checked
             {
